@@ -7,6 +7,9 @@ def chunk_pages(pages: list[dict], chunk_size: int = 500, overlap: int = 100) ->
     chunks = []
     for p in pages:
         for j, piece in enumerate(splitter.split_text(p["text"])):
+            non_ascii = sum(1 for ch in piece if ord(ch) > 127)
+            if non_ascii / max(len(piece), 1) > 0.3:
+                continue  # skip non-English (e.g. Chinese) chunks
             chunks.append({
                 "id": f"{p['filename']}-p{p['page']}-c{j}",
                 "text": piece,
