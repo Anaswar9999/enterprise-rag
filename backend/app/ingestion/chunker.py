@@ -1,7 +1,7 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
-def chunk_pages(pages: list[dict], chunk_size: int = 500, overlap: int = 100) -> list[dict]:
+def chunk_pages(pages: list[dict], chunk_size: int = 60, overlap: int = 10) -> list[dict]:
     """Split pages into chunks, keeping filename/page metadata for citations."""
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=overlap)
     chunks = []
