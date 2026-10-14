@@ -1,0 +1,14 @@
+[
+  {"q": "What is the reference voltage of the LM317 between output and adjust?", "file": "lm317.pdf", "kw": "1.25"},
+  {"q": "What is the maximum input to output voltage differential of the LM317?", "file": "lm317.pdf", "kw": "40"},
+  {"q": "Which GPIO pin is connected to the user LED on the Pico?", "file": "RP-008307-DS-2-pico-datasheet.pdf", "kw": "GPIO25"},
+  {"q": "What microcontroller chip is on the Raspberry Pi Pico?", "file": "RP-008307-DS-2-pico-datasheet.pdf", "kw": "RP2040"},
+  {"q": "What does HTTP status code 404 mean?", "file": "rfc2616.pdf", "kw": "404"},
+  {"q": "What does status code 301 mean in HTTP?", "file": "rfc2616.pdf", "kw": "Moved Permanently"},
+  {"q": "What is the Content-Length header used for?", "file": "rfc2616.pdf", "kw": "Content-Length"},
+  {"q": "What is the CPU clock speed of the Arduino UNO R3?", "file": "A000066-datasheet.pdf", "kw": "16 MHz"},
+  {"q": "Which processor is on the Arduino UNO R3?", "file": "A000066-datasheet.pdf", "kw": "ATmega328P"},
+  {"q": "What are the core functions of the NIST Cybersecurity Framework?", "file": "NIST.CSWP.29.pdf", "kw": "Govern"},
+  {"q": "Does the ESP32 support Wi-Fi?", "file": "esp32_datasheet_en.pdf", "kw": "Wi-Fi"},
+  {"q": "Does the ESP32 support Bluetooth?", "file": "esp32_datasheet_en.pdf", "kw": "Bluetooth"}
+]
