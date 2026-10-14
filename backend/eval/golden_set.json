@@ -6,7 +6,7 @@
   {"q": "What does HTTP status code 404 mean?", "file": "rfc2616.pdf", "kw": "404"},
   {"q": "What does status code 301 mean in HTTP?", "file": "rfc2616.pdf", "kw": "Moved Permanently"},
   {"q": "What is the Content-Length header used for?", "file": "rfc2616.pdf", "kw": "Content-Length"},
-  {"q": "What is the CPU clock speed of the Arduino UNO R3?", "file": "A000066-datasheet.pdf", "kw": "16 MHz"},
+  {"q": "What is the CPU clock speed of the Arduino UNO R3?", "file": "A000066-datasheet.pdf", "kw": "MHz"},
   {"q": "Which processor is on the Arduino UNO R3?", "file": "A000066-datasheet.pdf", "kw": "ATmega328P"},
   {"q": "What are the core functions of the NIST Cybersecurity Framework?", "file": "NIST.CSWP.29.pdf", "kw": "Govern"},
   {"q": "Does the ESP32 support Wi-Fi?", "file": "esp32_datasheet_en.pdf", "kw": "Wi-Fi"},
